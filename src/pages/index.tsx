@@ -33,7 +33,7 @@ export default function Home() {
 
                 <section className="mb-12 bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
                     <h2 className="text-3xl font-semibold text-indigo-600 mb-4">2. Building the Page</h2>
-                    <p className="text-lg text-gray-700 mb-4">Once the app was created, I started building out the page structure. Here's the core code that defines this page, which you are viewing now:</p>
+                    <p className="text-lg text-gray-700 mb-4">Once the app was created, I started building out the page structure. Here&apos;s the core code that defines this page, which you are viewing now:</p>
                     <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto font-mono text-sm text-pink-500">
                         {`
 import React from 'react';
