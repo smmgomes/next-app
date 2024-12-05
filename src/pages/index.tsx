@@ -24,6 +24,10 @@ export default function Home() {
             <main className="px-4 md:px-12 py-8">
                 <section className="mb-12 bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
                     <h2 className="text-3xl font-semibold text-indigo-600 mb-4">1. Creating the NextJS project</h2>
+                    <p>First I installed node on my system by using the Homebrew package manager on my MAC.</p>
+                    <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto font-mono text-sm text-pink-500">
+                        brew install npm
+                    </pre>
                     <p className="text-lg text-gray-700 mb-4">For this project, I chose Next.js because it provides both static and dynamic rendering out-of-the-box, making it ideal for building fast and interactive pages. To get started, I used the following command to initialize a new Next.js project:</p>
                     <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto font-mono text-sm text-pink-500">
                         npx create-next-app partc
